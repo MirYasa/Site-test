@@ -1,0 +1,478 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 38px;
+    width: 90%;
+    margin: 0 auto;
+    padding-bottom: 38px;
+}
+
+.logo {
+    background-image: url(/img/header/Logo.svg);
+    width: 43px;
+    height: 39px;
+    cursor: pointer;
+}
+
+.pages {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 1.1em;
+}
+
+.page {
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.header .button {
+    text-decoration: none;
+    color: #F7941E;
+    border-radius: 5px;
+    border: solid 1px #F7941E;
+    font-size: 1.1em;
+    padding: 13px;
+    padding-bottom: 7px;
+    cursor: pointer;
+}
+
+
+.FB-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 700px;
+    justify-content: space-between;
+}
+
+.FB-row .text-block {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f2;
+    height: 700px;
+    align-items: flex-start;
+}
+
+.img-block {
+    width: 50%;
+    background-color: #f1f1f2;
+}
+
+.row1 .title {
+    font-weight: bold;
+    margin-top: 154px;
+    font-size: 3em;
+    width: 430px;
+    margin-left: 162px;
+    margin-bottom: 48px;
+}
+
+.row1 .semi-title {
+    line-height: 1.4;
+    font-weight: 500;
+    width: 430px;
+    margin-left: 162px;
+    margin-top: 0;
+    margin-bottom: 52px;
+    font-size: 1.3em;
+}
+
+.row1 .img-block {
+    height: 700px;
+    width: 50%;
+   background-repeat: no-repeat;
+    background-image: url(/img/content/Background.png);
+    
+}
+
+.row1 .button {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #F7941E;
+    border-radius: 5px;
+    width: 200px;
+    padding: 24px 0px 18px 0px;
+    text-align: center;
+    margin-left: 162px;
+
+}
+
+.row2 {
+    height: 600px;
+}
+
+.row2 .text-block {
+    height: 600px;
+}
+
+.row2 .title {
+    font-weight: 500;
+    width: 440px;
+    margin-left: 112px;
+    margin-top: 164px;
+    margin-bottom: 23px;
+}
+
+.row2 .semi-title {
+    line-height: 1.4;
+    font-weight: 500;
+    width: 440px;
+    font-size: 1.2em;
+    margin-left: 112px;
+    margin-top: 0;
+    margin-bottom: 35px;
+}
+
+.row2 .button {
+    text-decoration: none;
+    color: #F7941E;
+    border-radius: 5px;
+    border: solid 1px #F7941E;
+    font-size: 1.1em;
+    width: 200px;
+    padding: 24px 0px 18px 0px;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 112px;
+}
+
+.row2 .img-block {
+    width: 50%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-image: url(/img/content/Media\ Background.png);
+}
+
+.img-tag{
+    margin-right: auto;
+}
+
+.second-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 820px;
+}
+
+.second-block .title {
+    padding-top: 96px;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.second-block .semi-title {
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: 64px;
+}
+
+.gifts {
+    display: flex;
+    align-items: center;
+}
+
+.gift .text {
+    height: 166px;
+    position: absolute;
+    width: 270px;
+}
+
+.gift {
+    width: 270px;
+    height: 436px;
+    background-color: #fafafa;
+    margin-right: 30px;
+    cursor: pointer;
+}
+
+.gift:last-child{
+    margin: 0;
+}
+
+.gift:hover>.text {
+    background-color: #ffffff;
+    box-shadow: rgb(233, 233, 233) 5px 5px 5px;
+}
+
+.gift .name {
+    font-size: 1.1em;
+    margin-top: 24px;
+    margin-left: 24px;
+}
+
+.gift .see-more {
+    text-decoration: none;
+    color: #000000;
+    font-size: 0.9em;
+    line-height: 1.35;
+    margin-left: 24px;
+    margin-top: 75px;
+    display: block;
+    width: 70px;
+}
+
+.gift .see-more::before {
+    position: absolute;
+    z-index: 2;
+    content: "";
+    border-right: solid 2px black;
+    width: 5px;
+    height: 5px;
+    border-top: solid 2px black;
+    transform: rotate(45deg);
+    margin-left: 65px;
+    margin-top: 7px;
+
+}
+
+.g1 .img {
+    background-image: url(/img/content-bar/Media.png);
+    width: 270px;
+    height: 270px;
+}
+
+.g2 .img {
+    background-image: url(/img/content-bar/Media2.png);
+    width: 270px;
+    height: 270px;
+}
+
+.g3 .img {
+    background-image: url(/img/content-bar/Media3.png);
+    width: 270px;
+    height: 270px;
+}
+
+.g4 .img {
+    background-image: url(/img/content-bar/Media4.png);
+    width: 270px;
+    height: 270px;
+}
+
+
+.third-block {
+    height: 240px;
+    display: flex;
+    justify-content: center;
+    background-color: #F7941E;
+}
+
+.third-block .text {
+    margin-right: 20%;
+}
+
+.third-block .title {
+    font-size: 2em;
+    margin-top: 81px;
+    margin-bottom: 0;
+    line-height: 1.4;
+}
+
+.third-block .semi-title {
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 2em;
+    line-height: 1.4;
+}
+
+.third-block .buttons {
+    margin-top: 115px;
+}
+
+.third-block .button1 {
+    color: #ffffff;
+    text-decoration: none;
+    background-color: #231F20;
+    border-radius: 5px;
+    padding: 17px 25px 12px 25px;
+    margin-right: 14px;
+}
+
+.third-block .button2 {
+    color: #000000;
+    text-decoration: none;
+    border: black solid 2px;
+    border-radius: 5px;
+    padding: 15px 23px 10px 23px;
+}
+
+.fourth-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1026px;
+}
+
+.fourth-block .title {
+    padding-top: 96px;
+    font-weight: 500;
+    margin-top: 0;
+    font-size: 2em;
+}
+
+.fourth-block .semi-title {
+    font-weight: 500;
+    font-size: 1.1em;
+    line-height: 1.3;
+    margin-bottom: 64px;
+}
+
+.picture-block {
+    display: flex;
+    width: 80%;
+
+}
+
+.img {
+    background-image: url(/img/content-bar/Media5.png);
+    height: 370px;
+    width: 33%;
+}
+
+.picture-block .text-block {
+    background-color: #000000;
+    height: 370px;
+    width: 67%;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.picture-block .text-block .ptitle {
+    margin-left: 78px;
+    font-weight: 500;
+    font-size: 3em;
+    margin-top: 27px;
+    margin-bottom: 60px;
+
+}
+
+.picture-block .text-block .name {
+    margin-left: 78px;
+    font-size: 0.9em;
+    margin-top: 63px;
+    margin-bottom: 0;
+
+}
+
+.picture-block .text-block .read-more {
+    color: #ffffff;
+    text-decoration: none;
+    margin-left: 78px;
+    width: 80px;
+}
+
+.comments {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.comment {
+    width: 39%;
+    height: 290px;
+    margin-right: 30px;
+}
+
+.comment:last-child {
+    margin: 0;
+}
+
+.comment:hover {
+    background-color: #ffffff;
+    box-shadow: rgb(233, 233, 233) 5px 5px 5px;
+}
+
+.comment .ctitle {
+    font-size: 1.4em;
+    margin-left: 48px;
+    margin-top: 48px;
+    margin-bottom: 16px;
+}
+
+.comment .csemi-title {
+    margin-top: 0;
+    font-size: 1.1em;
+    margin-left: 48px;
+    margin-bottom: 46px;
+}
+
+.comment .cread-more {
+    color: #000000;
+    text-decoration: none;
+    margin-left: 48px;
+}
+
+.footer {
+    height: 410px;
+    background-color: #fafafa;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer .pages {
+    font-weight: bold;
+    padding-top: 115px;
+    margin-bottom: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.footer .page {
+    margin-right: 80px;
+    margin-left: 0;
+}
+
+.footer .page:last-child {
+    margin-right: 0;
+}
+
+
+.footer .logo {
+    margin-right: 150px;
+    margin-left: 70px;
+}
+
+.footer .page {
+    margin-right: 80px;
+}
+
+.footer .line {
+    width: 1000px;
+    height: 0px;
+    background-color: #000000;
+    margin-bottom: 55px;
+    border: 1px black solid;
+}
+
+.footer .social-links {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.footer .link {
+    margin-right: 24px;
+}
+
+.footer .text {
+    margin: 0;
+}
