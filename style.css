@@ -14,7 +14,7 @@ body {
 }
 
 .logo {
-    background-image: url(/img/header/Logo.svg);
+    background-image: url(../img/header/Logo.svg);
     width: 43px;
     height: 39px;
     cursor: pointer;
@@ -91,7 +91,7 @@ body {
     height: 700px;
     width: 50%;
    background-repeat: no-repeat;
-    background-image: url(/img/content/Background.png);
+    background-image: url(../img/content/Background.png);
     
 }
 
@@ -150,7 +150,7 @@ body {
     width: 50%;
     height: 600px;
     background-repeat: no-repeat;
-    background-image: url(/img/content/Media\ Background.png);
+    background-image: url(../img/content/Media\ Background.png);
 }
 
 .img-tag{
@@ -238,25 +238,25 @@ body {
 }
 
 .g1 .img {
-    background-image: url(/img/content-bar/Media.png);
+    background-image: url(../img/content-bar/Media.png);
     width: 270px;
     height: 270px;
 }
 
 .g2 .img {
-    background-image: url(/img/content-bar/Media2.png);
+    background-image: url(../img/content-bar/Media2.png);
     width: 270px;
     height: 270px;
 }
 
 .g3 .img {
-    background-image: url(/img/content-bar/Media3.png);
+    background-image: url(../img/content-bar/Media3.png);
     width: 270px;
     height: 270px;
 }
 
 .g4 .img {
-    background-image: url(/img/content-bar/Media4.png);
+    background-image: url(../img/content-bar/Media4.png);
     width: 270px;
     height: 270px;
 }
@@ -336,7 +336,7 @@ body {
 }
 
 .img {
-    background-image: url(/img/content-bar/Media5.png);
+    background-image: url(../img/content-bar/Media5.png);
     height: 370px;
     width: 33%;
 }
